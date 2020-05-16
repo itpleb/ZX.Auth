@@ -1,0 +1,2 @@
+nuget pack ZX.SSOSdk.csproj -Prop Configuration=Release
+nuget push ZX.SSOSdk.1.0.6.24933.nupkg -source nuget.org

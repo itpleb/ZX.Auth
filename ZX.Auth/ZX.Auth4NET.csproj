@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="SSO\**" />
+    <EmbeddedResource Remove="SSO\**" />
+    <None Remove="SSO\**" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net40'">
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' != 'net40'">
+
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SSO\Client\ISSOClient.cs" />
+    <Compile Include="SSO\Client\SSOClient.cs" />
+    <Compile Include="SSO\Interfaces\ISSOServer.cs" />
+    <Compile Include="SSO\Interfaces\ISSOServerInfo.cs" />
+    <Compile Include="SSO\Interfaces\ISSOServerState.cs" />
+    <Compile Include="SSO\Interfaces\ISSOSite.cs" />
+    <Compile Include="SSO\Server\SSOServer.cs" />
+    <Compile Include="SSO\Server\SSOServerInfo.cs" />
+    <Compile Include="SSO\Server\SSOSite.cs" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net40' ">
+    <DefineConstants>NETX</DefineConstants>
+  </PropertyGroup>
+</Project>
