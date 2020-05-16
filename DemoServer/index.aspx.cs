@@ -19,7 +19,12 @@ namespace DemoServer
         {
             sso.CurrentLoginUserID = Login1.UserName;
             var sso_url = this.Request.QueryString["sso_url"];
-            this.Response.Redirect(sso_url);
+
+            if (!string.IsNullOrWhiteSpace(sso_url))
+            {
+                this.Response.Redirect(sso_url);
+            }
+
 
         }
     }
