@@ -10,6 +10,7 @@
     <AssemblyOriginatorKeyFile>ZX.Auth.snk</AssemblyOriginatorKeyFile>
     <Deterministic>false</Deterministic>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="SSO\**" />
