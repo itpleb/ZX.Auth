@@ -28,7 +28,6 @@
     <Compile Include="SSO\Client\SSOClient.cs" />
     <Compile Include="SSO\Interfaces\ISSOServer.cs" />
     <Compile Include="SSO\Interfaces\ISSOServerInfo.cs" />
-    <Compile Include="SSO\Interfaces\ISSOServerState.cs" />
     <Compile Include="SSO\Interfaces\ISSOSite.cs" />
     <Compile Include="SSO\Server\SSOServer.cs" />
     <Compile Include="SSO\Server\SSOServerInfo.cs" />
