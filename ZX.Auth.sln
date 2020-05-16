@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZX.SSOSdk", "ZX.SSOSdk\ZX.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoServer", "DemoServer\DemoServer.csproj", "{C5626D1F-1C80-4946-B820-E3FB38ACE629}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClient", "DemoClient\DemoClient.csproj", "{68419E81-A648-4A70-89B9-C1F3E6B3B150}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C5626D1F-1C80-4946-B820-E3FB38ACE629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5626D1F-1C80-4946-B820-E3FB38ACE629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5626D1F-1C80-4946-B820-E3FB38ACE629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68419E81-A648-4A70-89B9-C1F3E6B3B150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68419E81-A648-4A70-89B9-C1F3E6B3B150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68419E81-A648-4A70-89B9-C1F3E6B3B150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68419E81-A648-4A70-89B9-C1F3E6B3B150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -24,7 +24,7 @@
 
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SSO\Client\ISSOClient.cs" />
+    <Compile Include="SSO\Interfaces\ISSOClient.cs" />
     <Compile Include="SSO\Client\SSOClient.cs" />
     <Compile Include="SSO\Interfaces\ISSOServer.cs" />
     <Compile Include="SSO\Interfaces\ISSOServerInfo.cs" />

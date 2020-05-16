@@ -12,9 +12,7 @@ using System.Text;
 using System.Web;
 using ZX.Auth.Utilities;
 using ZX.Auth;
-
-
-
+using ZX.Auth.SSO.Interfaces;
 
 namespace ZX.Auth.SSO.Client
 {
